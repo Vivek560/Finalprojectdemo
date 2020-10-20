@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="salespack.SalesAreasTest">
+      <class name="Bankingandgeneralledger.GLAccountTest">
         <methods>
-          <include name="Launchapplication"/>
-          <include name="closure"/>
-          <include name="SalesArea"/>
+          <include name="AddGLAccount"/>
+          <include name="Launchbrowser"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- salespack.SalesAreasTest -->
+      </class> <!-- Bankingandgeneralledger.GLAccountTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

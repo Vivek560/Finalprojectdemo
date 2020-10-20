@@ -35,7 +35,7 @@ public class GLAccountTest extends Base {
 	}
 
 	@Test(priority=2)
-	public void AddGLAccount() {
+	public void AddGLAccount() throws InterruptedException {
 		Homepage home=new Homepage(driver);
 		home.Bankingandgeneralledger().click();
 		home.GLAccounts().click();
@@ -51,13 +51,14 @@ public class GLAccountTest extends Base {
 		
 		WebElement Accounttags=addaccount.Accounttags();
 		Select Accounttagscombobox=new Select(Accounttags);
-		Accounttagscombobox.selectByValue(prop.getProperty("accounttags"));
+		Accounttagscombobox.selectByVisibleText(prop.getProperty("accounttags"));
 		
 		WebElement Accountstatus=addaccount.Accountstatus();
 		Select Accountstatusdropdown=new Select(Accountstatus);
 		Accountstatusdropdown.selectByValue(prop.getProperty("accountstatus"));
 		
 		addaccount.GLAddaccountbutton().click();
+		Thread.sleep(3000);
 		addaccount.Backbutton().click();
 	}
 

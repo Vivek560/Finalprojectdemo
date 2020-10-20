@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="129.635" tests="17" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="40.222" tests="20" errors="0" skipped="0" failures="2">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.8\bin"/>
-    <property name="sun.java.command" value="C:\Users\C V VIVEK\AppData\Local\Temp\surefire10149081146697241061\surefirebooter13106084167932029268.jar C:\Users\C V VIVEK\AppData\Local\Temp\surefire10149081146697241061 2020-10-15T20-18-00_568-jvmRun1 surefire247110735964074458tmp surefire_015398722332458328835tmp"/>
+    <property name="sun.java.command" value="C:\Users\C V VIVEK\AppData\Local\Temp\surefire2641357874971711401\surefirebooter13795032879109858664.jar C:\Users\C V VIVEK\AppData\Local\Temp\surefire2641357874971711401 2020-10-20T16-10-08_440-jvmRun1 surefire3865076693408922494tmp surefire_01039322697705171161tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="E:\localrepo\Finalprojectdemo\target\test-classes;E:\localrepo\Finalprojectdemo\target\classes;C:\Users\C V VIVEK\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\C V VIVEK\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\C V VIVEK\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\C V VIVEK\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\C V VIVEK\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\C V VIVEK\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\C V VIVEK\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\C V VIVEK\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\C V VIVEK\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\C V VIVEK\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\C V VIVEK\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\C V VIVEK\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\C V VIVEK\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\C V VIVEK\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\C V VIVEK\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\C V VIVEK\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\C V VIVEK\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\C V VIVEK\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\C V VIVEK\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\C V VIVEK\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\C V VIVEK\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\C V VIVEK\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\C V VIVEK\.m2\repository\io\github\bonigarcia\webdrivermanager\4.2.2\webdrivermanager-4.2.2.jar;C:\Users\C V VIVEK\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\C V VIVEK\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\C V VIVEK\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\C V VIVEK\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.1\httpclient5-5.0.1.jar;C:\Users\C V VIVEK\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.1\httpcore5-5.0.1.jar;C:\Users\C V VIVEK\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.1\httpcore5-h2-5.0.1.jar;C:\Users\C V VIVEK\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\C V VIVEK\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\C V VIVEK\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\C V VIVEK\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\C V VIVEK\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\C V VIVEK\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\C V VIVEK\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\C V VIVEK\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\C V VIVEK\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\C V VIVEK\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\C V VIVEK\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\C V VIVEK\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\C V VIVEK\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.3\log4j-api-2.13.3.jar;C:\Users\C V VIVEK\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.3\log4j-core-2.13.3.jar;C:\Users\C V VIVEK\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\C V VIVEK\.m2\repository\com\aventstack\extentreports\5.0.4\extentreports-5.0.4.jar;C:\Users\C V VIVEK\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\C V VIVEK\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\C V VIVEK\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\C V VIVEK\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\C V VIVEK\AppData\Local\Temp\surefire10149081146697241061\surefirebooter13106084167932029268.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\C V VIVEK\AppData\Local\Temp\surefire2641357874971711401\surefirebooter13795032879109858664.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.8+10-LTS"/>
@@ -61,80 +61,111 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="Login" classname="inventory.InventoryLocationsTest" time="3.115">
+  <testcase name="Login" classname="inventory.UnitsMeasureTest" time="1.19">
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 39537
+Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 20563
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 7187
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fCb1hbr8o2m4e6D8rfi6v3ear3 aw9a3sb 4set2aer8t9e-erde fssu/cbcraenscshf-uhlelayd.s/
+4240@{#378}) on port 7253
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started sucSctaretsisnfgu lClhyr.om
+eDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 16095
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 15, 2020 8:18:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="Inventorylocation" classname="inventory.InventoryLocationsTest" time="8.516"/>
-  <testcase name="Logout" classname="inventory.InventoryLocationsTest" time="0.564"/>
-  <testcase name="Login" classname="inventory.UnitsMeasureTest" time="1.188">
-    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 10178
+Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 17316
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 15, 2020 8:18:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+ChromeDriver was started successfully.
+Oct 20, 2020 4:10:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 20, 2020 4:10:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 20, 2020 4:10:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 20, 2020 4:10:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 20, 2020 4:10:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="AddUnitofMeasure" classname="inventory.UnitsMeasureTest" time="5.891"/>
-  <testcase name="Logout" classname="inventory.UnitsMeasureTest" time="0.516"/>
-  <testcase name="Login[qaplanet1, lab1, Succesful](1)" classname="fmpack.LoginTest" time="3.218">
-    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 13022
+  <testcase name="AddUnitofMeasure" classname="inventory.UnitsMeasureTest" time="3.267"/>
+  <testcase name="Logout" classname="inventory.UnitsMeasureTest" time="0.608"/>
+  <testcase name="Login" classname="salespack.SalespersonTest" time="1.548">
+    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 16071
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 15, 2020 8:18:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Login[qaplanet1, lab, failure](2)" classname="fmpack.LoginTest" time="12.443">
-    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 21376
+  <testcase name="AddSalesPersons" classname="salespack.SalespersonTest" time="2.087">
+    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 22796
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 15, 2020 8:18:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Oct 20, 2020 4:10:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Login" classname="salespack.SalesAreasTest" time="3.983">
-    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 27098
+  <testcase name="Logout" classname="salespack.SalespersonTest" time="0.363"/>
+  <testcase name="Login" classname="inventory.InventoryLocationsTest" time="0.02">
+    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 17444
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 15, 2020 8:19:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+]]></system-err>
+  </testcase>
+  <testcase name="Logout" classname="inventory.InventoryLocationsTest" time="0.54"/>
+  <testcase name="Inventorylocation" classname="inventory.InventoryLocationsTest" time="1.375"/>
+  <testcase name="Login" classname="salespack.SalesAreasTest" time="0.887"/>
+  <testcase name="Logout" classname="salespack.SalesAreasTest" time="0.365"/>
+  <testcase name="SalesArea" classname="salespack.SalesAreasTest" time="9.893">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Sales Areas&quot;}&#10;  (Session info: chrome=86.0.4240.75)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-TPUJHBBQ&apos;, ip: &apos;192.168.0.178&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\CVVIVE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56555}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: bb419c3d3b062786c27e1375f7d3c080&#10;*** Element info: {Using=link text, value=Sales Areas}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"link text","selector":"Sales Areas"}
+  (Session info: chrome=86.0.4240.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-TPUJHBBQ', ip: '192.168.0.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\CVVIVE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56555}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bb419c3d3b062786c27e1375f7d3c080
+*** Element info: {Using=link text, value=Sales Areas}
+	at salespack.SalesAreasTest.SalesArea(SalesAreasTest.java:44)
+]]></failure>
+  </testcase>
+  <testcase name="Login[qaplanet1, lab1, Succesful](1)" classname="fmpack.LoginTest" time="2.351">
+    <system-err><![CDATA[Oct 20, 2020 4:10:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 20, 2020 4:10:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="SalesArea" classname="salespack.SalesAreasTest" time="9.394"/>
-  <testcase name="Logout" classname="salespack.SalesAreasTest" time="0.762"/>
-  <testcase name="Login" classname="salespack.SalespersonTest" time="1.006">
-    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 40086
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Oct 15, 2020 8:19:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
+  <testcase name="Login[qaplanet1, lab, failure](2)" classname="fmpack.LoginTest" time="6.246"/>
+  <testcase name="Login" classname="salespack.SalesTypeTest" time="2.021"/>
+  <testcase name="Addsalestype" classname="salespack.SalesTypeTest" time="0.671"/>
+  <testcase name="Logout" classname="salespack.SalesTypeTest" time="3.622"/>
+  <testcase name="AddGLAccount" classname="Bankingandgeneralledger.GLAccountTest" time="2.715">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Banking and General Ledger&quot;}&#10;  (Session info: chrome=86.0.4240.75)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-TPUJHBBQ&apos;, ip: &apos;192.168.0.178&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\CVVIVE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56640}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 0c948b1523d23bb8e2bd7dd961c41f60&#10;*** Element info: {Using=link text, value=Banking and General Ledger}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"link text","selector":"Banking and General Ledger"}
+  (Session info: chrome=86.0.4240.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-TPUJHBBQ', ip: '192.168.0.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\CVVIVE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56640}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 0c948b1523d23bb8e2bd7dd961c41f60
+*** Element info: {Using=link text, value=Banking and General Ledger}
+	at Bankingandgeneralledger.GLAccountTest.AddGLAccount(GLAccountTest.java:40)
+]]></failure>
   </testcase>
-  <testcase name="AddSalesPersons" classname="salespack.SalespersonTest" time="5.884"/>
-  <testcase name="Logout" classname="salespack.SalespersonTest" time="0.778"/>
-  <testcase name="Login" classname="salespack.SalesTypeTest" time="3.956">
-    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 27260
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Oct 15, 2020 8:19:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="Addsalestype" classname="salespack.SalesTypeTest" time="11.806"/>
-  <testcase name="Logout" classname="salespack.SalesTypeTest" time="3.532"/>
+  <testcase name="login" classname="Bankingandgeneralledger.GLAccountTest" time="1.131"/>
+  <testcase name="Logout" classname="Bankingandgeneralledger.GLAccountTest" time="0.354"/>
 </testsuite>
