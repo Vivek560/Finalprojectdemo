@@ -37,6 +37,12 @@ public class Homepage {
 	@FindBy(linkText="Units of Measure")
 	private WebElement UnitsofMeasure;
 	
+	@FindBy(linkText="Banking and General Ledger")
+	private WebElement Bankingandgeneralledger;
+	
+	@FindBy(linkText="GL Accounts")
+	private WebElement GLAccounts;
+	
 	public WebElement Sales() {
 		return Sales;
 	}
@@ -64,5 +70,13 @@ public class Homepage {
 	public WebElement UnitsofMeasure() {
 		return UnitsofMeasure;
 	}
+
+	public WebElement Bankingandgeneralledger() {
+		return Bankingandgeneralledger;
+	}
 	
+	public WebElement GLAccounts() {
+		return GLAccounts;
+	}
 }
+

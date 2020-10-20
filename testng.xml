@@ -6,6 +6,7 @@
       <class name="inventory.InventoryLocationsTest"/>
       <class name="inventory.UnitsMeasureTest"/>
       <class name="fmpack.LoginTest"/>
+      <class name="Bankingandgeneralledger.GLAccountTest"/>
       <class name="salespack.SalesAreasTest"/>
       <class name="salespack.SalespersonTest"/>
       <class name="salespack.SalesTypeTest"/>

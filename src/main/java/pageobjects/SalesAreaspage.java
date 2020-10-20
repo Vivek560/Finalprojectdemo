@@ -14,7 +14,7 @@ public class SalesAreaspage {
 	}
 	
 	@FindBy(xpath="//*[@name='description']")
-	WebElement Areaname;
+	private WebElement Areaname;
 	
 	@FindBy(xpath="//*[text()='Add new']")
 	private WebElement Addbutton;
