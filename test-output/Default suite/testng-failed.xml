@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Bankingandgeneralledger.GLAccountTest">
+      <class name="Bankingandgeneralledger.GLAccountclassTest">
         <methods>
-          <include name="AddGLAccount"/>
-          <include name="Launchbrowser"/>
+          <include name="LaunchBrowser"/>
+          <include name="AddGLAccountclasses"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- Bankingandgeneralledger.GLAccountTest -->
+      </class> <!-- Bankingandgeneralledger.GLAccountclassTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

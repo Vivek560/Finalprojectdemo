@@ -43,6 +43,12 @@ public class Homepage {
 	@FindBy(linkText="GL Accounts")
 	private WebElement GLAccounts;
 	
+	@FindBy(linkText="GL Account Groups")
+	private WebElement GLAccountGroups;
+	
+	@FindBy(linkText="GL Account Classes")
+	private WebElement GLAccountclasses;
+	
 	public WebElement Sales() {
 		return Sales;
 	}
@@ -77,6 +83,14 @@ public class Homepage {
 	
 	public WebElement GLAccounts() {
 		return GLAccounts;
+	}
+
+	public WebElement GLAccountsGroup() {
+		return  GLAccountGroups;
+	}
+
+	public WebElement GLAccountClasses() {
+	return GLAccountclasses;
 	}
 }
 
