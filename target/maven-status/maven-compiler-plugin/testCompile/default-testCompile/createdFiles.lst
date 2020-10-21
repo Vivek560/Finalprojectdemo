@@ -1,9 +1,0 @@
-fmpack\LoginTest.class
-inventory\UnitsMeasureTest.class
-salespack\SalesTypeTest.class
-inventory\InventoryLocationsTest.class
-Bankingandgeneralledger\GLAccountclassTest.class
-Bankingandgeneralledger\GLAccountTest.class
-Bankingandgeneralledger\GLAccountgroupTest.class
-salespack\SalesAreasTest.class
-salespack\SalespersonTest.class
