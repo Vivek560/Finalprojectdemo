@@ -3,6 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+      <class name="Bankingandgeneralledger.GLBankAccountTest"/>
       <class name="Bankingandgeneralledger.GLAccountclassTest"/>
       <class name="inventory.InventoryLocationsTest"/>
       <class name="inventory.UnitsMeasureTest"/>

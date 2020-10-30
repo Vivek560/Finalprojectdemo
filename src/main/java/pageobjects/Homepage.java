@@ -49,6 +49,12 @@ public class Homepage {
 	@FindBy(linkText="GL Account Classes")
 	private WebElement GLAccountclasses;
 	
+	@FindBy(linkText="Bank Accounts")
+	private WebElement BankAccounts;
+	
+	@FindBy(linkText="Quick Entries")
+	private WebElement QuickEntries;
+	
 	public WebElement Sales() {
 		return Sales;
 	}
@@ -91,6 +97,14 @@ public class Homepage {
 
 	public WebElement GLAccountClasses() {
 	return GLAccountclasses;
+	}
+	
+	public WebElement BankAccount() {
+		return BankAccounts;
+	}
+	
+	public WebElement QuickEntries() {
+		return QuickEntries;
 	}
 }
 
